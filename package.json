@@ -1,0 +1,25 @@
+{
+  "name": "google-calendar-backend",
+  "version": "1.0.0",
+  "description": "calendar test api",
+  "main": "index.js",
+  "author": "Bertonni",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "gcp-metadata": "^5.0.1",
+    "google-auth-library": "^8.5.2",
+    "googleapis": "105",
+    "nodemon": "^2.0.20"
+  }
+}
